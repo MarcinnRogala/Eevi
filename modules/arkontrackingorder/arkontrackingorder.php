@@ -162,21 +162,21 @@ class Arkontrackingorder extends Module
                                 'label' => $this->l('Disabled')
                             )
                         ),
-                        array(
-                            'col' => 3,
-                            'type' => 'text',
-                            'prefix' => '<i class="icon icon-envelope"></i>',
-                            'desc' => $this->l('Enter email address here'),
-                            'name' => 'ARKONTRACKINGORDER_ACCOUNT_EMAIL',
-                            'label' => $this->l('Email'),
-                        ),
-                        array(
-                            'col' => 1,
-                            'type' => 'text',
-                            'desc' => $this->l('Chose your File Limit'),
-                            'name' => 'ARKONTRACKINGORDER_FILE_NUMBER',
-                            'label' => $this->l('File Limit')
-                        ),
+                    ),
+                    array(
+                        'col' => 3,
+                        'type' => 'text',
+                        'prefix' => '<i class="icon icon-envelope"></i>',
+                        'desc' => $this->l('Enter email address here'),
+                        'name' => 'ARKONTRACKINGORDER_ACCOUNT_EMAIL',
+                        'label' => $this->l('Email'),
+                    ),
+                    array(
+                        'col' => 1,
+                        'type' => 'text',
+                        'desc' => $this->l('Chose your File Limit'),
+                        'name' => 'ARKONTRACKINGORDER_FILE_NUMBER',
+                        'label' => $this->l('File Limit')
                     ),
                 ),
                 'submit' => array(
